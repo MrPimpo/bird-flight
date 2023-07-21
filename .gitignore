@@ -1,6 +1,11 @@
 # Prerequisites
 *.d
 
+# Directories
+\bin
+\temp
+\.vs
+
 # Compiled Object files
 *.slo
 *.lo
@@ -27,6 +32,10 @@
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
+
+# Solution files
+*.sln
+*.vcxproj
+*.user
